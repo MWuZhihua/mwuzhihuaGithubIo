@@ -1,0 +1,16 @@
+---
+title: qss渐变色的应用
+date: 2017-04-12 14:49:03
+tags: qss
+categories: qt
+---
+**示例代码**
+```
+QTreeWidget#tw_subject1{
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+	stop: 0 #439ACF,stop: 0.4 #307BA9,
+	stop: 0.5 #286E99, stop: 1.0 #00436E); 
+}
+```
+**说明**
+QTreeWidget是该对象类型，tw_subject1该对象setObjectName设置的值，qlineargradient是渐变函数，x1 y1起始位置比例值，x2 y2结束位置比例值，最后 stop: 比例值 #颜色值（RGB十六进制）。
