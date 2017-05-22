@@ -76,6 +76,6 @@ baidu_url_submit:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
  - type: git
-   repo: https://github.com/MWuZhihua/mwuzhihua.github.io.git
+   repo: git@github.com:MWuZhihua/mwuzhihua.github.io.git
    branch: master
  - type: baidu_url_submitter
